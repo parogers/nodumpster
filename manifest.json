@@ -1,0 +1,30 @@
+{
+    "manifest_version": 2,
+    "name": "NoDumpster",
+    "author" : "Peter Rogers",
+    "homepage_url" : "https://github.com/parogers/nodumpster",
+    "version": "1.0",
+
+    "description": "Replaces youtube live chat with an image of a dumpster fire.",
+
+    "icons": {
+	"48": "icons/icon-48.png"
+    },
+
+    "applications": {
+	"gecko" : {
+	    "id" : "nodumpster@writtenwordinteractive.com"
+	}
+    },
+
+    "web_accessible_resources" : [
+	"imgs/dumpsterfire.jpg"
+    ],
+
+    "content_scripts": [
+	{
+	    "matches": ["*://www.youtube.com/*"],
+	    "js": ["nodumpster.js"]
+	}
+    ]
+}
