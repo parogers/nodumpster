@@ -9,6 +9,6 @@ This was written mostly as a joke, as a way to learn something about the WebExte
 
 # Download
 
-Download and install the extension here:
+Download and install the extension here: (self-signed version)
 
 <https://github.com/parogers/nodumpster/raw/master/release/nodumpster-1.0-an%2Bfx.xpi>
